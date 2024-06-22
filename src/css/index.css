@@ -1,0 +1,105 @@
+head {
+    margin: 0;
+}
+body {
+    margin: 0;
+    background-color: #e5e5e5;
+}
+
+div {
+    margin: 0;
+}
+
+div#header {
+    height: 300px;
+    background-color: #14213d;
+    vertical-align: middle;
+}
+h1#sistema_solare--title {
+    color: #fca311;
+    font-size: 70px;
+    text-transform:uppercase;
+    text-shadow: 1.5px 1.5px 2px #e5e5e5;
+    text-align: center;
+    word-spacing: 3px;
+    margin: 0;
+    padding: 100px 0;
+}
+div#info_sistema_solare {
+    margin: 15px 15px 0px 15px;
+    padding: 25px;
+    background-color: #fca311;
+    text-align: justify;
+    border: solid #14213d 2px;
+}
+
+h2#info_sistema {
+    text-align: center;
+    color: #14213d;
+    font-size: 30px;
+}
+
+.li-pianeti {
+    padding-left: 15px;
+    line-height: 1.3;
+    list-style: url("/Assets/img/li-pianeta-8.png");
+}
+
+.pianeta_card {
+    background-color: #e5e5e5;
+    width: calc(33.3333333% - 25px);
+    border: solid 2px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
+
+div.pianeta-container {
+    padding: 15px;
+    margin-top: 0px;
+    font-size: 0;
+}
+
+div.card_head {
+    margin: 0;
+    text-align: center;
+    border-bottom: solid 2px;
+}
+
+div.card_body {
+    padding: 15px;
+    border-bottom: solid 2px;
+    height: 150px;
+    overflow-y: hidden;
+}
+
+div.card_footer {
+    text-align: center;
+    cursor: pointer;
+}
+
+.cards_SX {
+    margin-left: 0;
+    width: calc(33.3333333% - 13px);
+}
+
+.cards_DX {
+    margin-right: 0;
+    width: calc(33.3333333% - 13px);
+}
+
+div.footer {
+    margin: 0;
+    padding: 20px;
+    background-color: #fca311;
+}
+
+div.footer_d {
+    width: 160px;
+    display: inline-block;
+}
+
+div.footer_r {
+    width: 180px;
+    display: inline-block;
+}
